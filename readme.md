@@ -23,7 +23,7 @@ To install **cmatch** directly from github you need to use a Stata module for in
 
 # Authorship and Developer
 
-Note: **cmatch** is an improved version of **match** developed by faculty members of the EPM-304 (Adavance Statistical Methods in Epidemiology), MSc distance Learning programme in Epidemiology from the London School of Hygiene and Tropical Medicine.  
+Note: **cmatch** is an improved version of **match** originally developed by the EPM-304 (Adavance Statistical Methods in Epidemiology) distance Learning MSc programme in Epidemiology from the London School of Hygiene and Tropical Medicine.  
 
 Developer: Miguel Angel Luque-Fernandez, LSHTM, NCDE, Cancer Survival Group, London, U.K.      
 Email: miguel-angel.luque@lshtm.ac.uk   
