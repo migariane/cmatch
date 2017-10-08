@@ -1,4 +1,4 @@
-v 2.1.0
+v 1.0.0
 d 'cmatch': Stata module for tabulation of 1:1 matched pairs in case control studies by exposure status {break}
 d version (release) 
 d {browse "http://www.github.com/migariane/cmatch":GitHub} website
