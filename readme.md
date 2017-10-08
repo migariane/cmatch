@@ -3,7 +3,7 @@
 Matched case-control studies are a **classical Epidemiology** study design. Case-control study designs are used
 to estimate the relative risk for a disease from a specific risk factor. The estimate is the odds ratio, which is 
 a good estimate of the relative risk especially when the disease is rare. **cmatch** tabulates the number of 
-matched pairs by **c** levels of an exposure variable. {hi: cmatch} forms a **c x c** table of matched pairs 
+matched pairs by **c** levels of an exposure variable. **cmatch** forms a **c x c** table of matched pairs 
 by the exposure status of the case and the exposure status of the control. The data must be in the form of individual records.  
 
 # Installation note    
