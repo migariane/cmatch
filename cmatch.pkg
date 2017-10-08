@@ -1,0 +1,16 @@
+d 'cmatch': Tabulation of matched pairs in 1:1 case control study by exposure status
+d
+d KW: Version control
+d KW: GitHub
+d KW: Git
+d KW: net
+d
+d Requires: Stata version 13 
+d
+d Distribution-Date: 07.10.2017
+d
+d Author: Miguel Angel Luque-Fernandez LSHTM
+d Support: email miguel-angel.luque@lshtm.ac.uk
+d
+F cmatch.sthlp
+F cmatch.ado
