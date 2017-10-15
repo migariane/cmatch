@@ -1,8 +1,9 @@
-*! version 1.0.0 MALF 7.October.2017
+*! version 1.1.0 MALF 7.October.2017
 *! cmatch: Stata module for tabulation of matched pairs in 1:1 case control study by exposure status
 *! by Miguel Angel Luque-Fernandez [cre,aut]
 *! Bug reports:
 *! miguel-angel.luque at lshtm.ac.uk
+*! Fixed case-control column display 16.10.2017
 
 /*
 Copyright (c) 2017  <Miguel Angel Luque-Fernandez>
@@ -40,8 +41,8 @@ if "`if'"!="" | "`in'"!="" {
 collapse (sum) "`2'" , by("`1'" "`3'") cw
 
 qui reshape wide `2', i(`3') j(`1')
-qui gen Controls = `2'0
-qui gen Cases = `2'1
+qui gen Cases = `2'0
+qui gen Controls = `2'1
 di in gr "1:1 matched pairs (case-control) by levels of the exposure variable: `2'"
 tab Controls Cases
 qui count if Controls==Cases
