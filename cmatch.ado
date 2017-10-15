@@ -41,8 +41,8 @@ if "`if'"!="" | "`in'"!="" {
 collapse (sum) "`2'" , by("`1'" "`3'") cw
 
 qui reshape wide `2', i(`3') j(`1')
-qui gen Cases = `2'0
-qui gen Controls = `2'1
+qui gen Controls = `2'0
+qui gen Cases = `2'1
 di in gr "1:1 matched pairs (case-control) by levels of the exposure variable: `2'"
 tab Controls Cases
 qui count if Controls==Cases
